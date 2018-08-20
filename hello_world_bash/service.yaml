@@ -1,0 +1,20 @@
+cmd:
+  type: shell
+  command:
+    default: /bin/bash run.sh
+
+item_properties:
+- key: my_input_param
+  type: text
+  value:
+  mandatory: true
+  direction: input
+  help: An input text field
+
+- key: my_output_param
+  type: text
+  value:
+  direction: output
+  help: An output text field
+timeout: 120
+type: action
