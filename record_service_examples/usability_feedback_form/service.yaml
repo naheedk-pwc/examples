@@ -1,0 +1,42 @@
+item_properties:
+- key: product
+  type: text
+  value:
+  editor: selectbox
+  store:
+      Product 1: product_1
+      Product 2: product_2
+  mandatory: true
+  direction: input
+  help: An input text field
+
+- key: version
+  type: text
+  value:
+  mandatory: true
+  direction: input
+  help: The product version
+
+- key: build
+  type: integer
+  value:
+  mandatory: true
+  direction: input
+  help: The build number
+
+- key: usability
+  editor: selectbox
+  store:
+      '1': 1
+      '2': 2
+      '3': 3
+      '4': 4
+      '5': 5
+  type: text
+  value:
+  mandatory: true
+  direction: input
+  help: 1-5 score for usability
+
+timeout: 120
+type: record

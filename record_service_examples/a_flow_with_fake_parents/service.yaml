@@ -1,0 +1,7 @@
+cmd:
+  type: shell
+  command:
+    default: python -u run.py
+item_properties:
+timeout: 120
+type: action
