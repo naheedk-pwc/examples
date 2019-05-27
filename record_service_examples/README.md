@@ -1,6 +1,6 @@
 ## "record" scheme service examples
 
-See: http://help.opereto.com/support/solutions/articles/9000146146-database-record-services
+See: https://docs.opereto.com/framework/automation_services/service_schemes/#record-scheme
 
 ### deploy to opereto
 ```
